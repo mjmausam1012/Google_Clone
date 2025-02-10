@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 15vh;
+}
+
+main {
+    height: 70vh;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    gap: 70vw;
+}
+
+.left a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    margin: 0px 5px;
+    color: #1f1f1f;
+}
+
+.right{
+    display: inline-flex;
+}
+
+.images img {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    height: 25px;
+}
+
+.right a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    padding-top: 12px;
+    margin: 0px 5px;
+    color: #1f1f1f;    
+}
+
+main h1{
+    text-align: center;
+    max-height: 100%;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    padding: 10px;
+    margin: 20px;
+    color: rgb(255, 100, 0);
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+}
+
+.gl_search {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.gl_search input {
+    width: 75vw;
+    font-size: 18px;
+}
+
+.search input {
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    position: relative;
+    box-shadow: 1px 1px 5px 2px gray;
+}
+
+.button {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    gap: 25px;
+}
+
+.button button {
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.lang {
+    margin: 5px;
+    padding: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.lang a {
+    text-decoration: none;
+    padding: 5px;
+    color: blue;
+}
+
+.india {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px 12px;
+    padding: 10px;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 60vw;
+}
+
+.foot a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.ft-left {
+ margin: 0px 17px;
+}
